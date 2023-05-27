@@ -1,0 +1,22 @@
+@media screen and (min-width: 768px) {
+    .footer-sub-container {
+        flex-direction: row !important;
+    }
+
+    .mentorlst,
+    .learn-more {
+        width: 100% !important;
+    }
+
+    .learn-more {
+        gap: 8px;
+    }
+
+    .unsubscribe {
+        width: 100% !important;
+    }
+
+    .socials {
+        align-self: flex-end !important;
+    }
+}
