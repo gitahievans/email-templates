@@ -1,208 +1,211 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
 <html>
 
-<head>
-   <link rel="preconnect" href="https://fonts.googleapis.com" />
-   <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-   <style>
-      @media (min-width: 768px) {
+   <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="stylesheet"
+         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+      <!-- <style>
+         @media (min-width: 768px) {
 
-         .reset-successful-container,
-         .reset-request-container,
-         .new-mentors-container {
-            max-width: 716px !important;
+            .reset-successful-container,
+            .reset-request-container,
+            .new-mentors-container {
+               max-width: 716px !important;
+            }
+
+            .reset-successful-main,
+            .reset-request-main,
+            .new-mentors-main {
+               padding: 50px 65px 0 65px !important;
+            }
+
+            .logo {
+               width: 192px !important;
+            }
+
+            .heading {
+               font-size: 32px !important;
+               line-height: 40px !important;
+               margin-bottom: 32px !important;
+            }
+
+            .body {
+               gap: 16px !important;
+               margin-bottom: 32px
+            }
+
+            .body p {
+               font-size: 16px !important;
+            }
+
+            .signature {
+               font-size: 16px !important;
+            }
+
+            .reset-btn,
+            .see-more {
+               margin: 16px 0 !important;
+            }
+
+            .footer-sub-container {
+               flex-direction: row !important;
+            }
+
+            .mentorlst,
+            .learn-more {
+               width: 100% !important;
+            }
+
+            .learn-more {
+               gap: 8px;
+            }
+
+            .unsubscribe {
+               width: 100% !important;
+            }
+
+            .socials {
+               align-self: flex-end !important;
+            }
+
+            .new-mentors-main .logo {
+               width: 192px !important;
+            }
+
+            .see-more {
+               min-width: 399px !important;
+            }
          }
+      </style> -->
 
-         .reset-successful-main,
-         .reset-request-main,
-         .new-mentors-main {
-            padding: 50px 65px 0 65px !important;
-         }
+   </head>
 
-         .logo {
-            width: 192px !important;
-         }
-
-         .heading {
-            font-size: 32px !important;
-            line-height: 40px !important;
-            margin-bottom: 32px !important;
-         }
-
-         .body {
-            gap: 16px !important;
-            margin-bottom: 32px
-         }
-
-         .body p {
-            font-size: 16px !important;
-         }
-
-         .signature {
-            font-size: 16px !important;
-         }
-
-         .reset-btn,
-         .see-more {
-            margin: 16px 0 !important;
-         }
-
-         .footer-sub-container {
-            flex-direction: row !important;
-         }
-
-         .mentorlst,
-         .learn-more {
-            width: 100% !important;
-         }
-
-         .learn-more {
-            gap: 8px;
-         }
-
-         .unsubscribe {
-            width: 100% !important;
-         }
-
-         .socials {
-            align-self: flex-end !important;
-         }
-
-         .new-mentors-main .logo {
-            width: 192px !important;
-         }
-
-         .see-more {
-            min-width: 399px !important;
-         }
-      }
-   </style>
-
-</head>
-
-<body>
-   <div class="new-mentors-container"
-      style="font-family: 'Poppins', sans-serif; margin-left: auto; margin-right: auto;
-            display: flex;
-            flex-direction: column;
-            gap: 56px;
-            max-width: 360px;
-            background-color: #fff;
-            border-radius: 16px;">
-      <div class="new-mentors-main"
-         style="display: flex; flex-direction: column; align-items: center; padding: 20px 20px 0;">
-         <img src="./icons/Mentorlst main logo 2.svg" alt="logo" class="logo"
-            style="width: 185px; height: auto; margin-bottom: 36px;">
-         <div class="body" style="display: flex; flex-direction: column; gap: 0; margin-bottom: 16px;">
-            <h1 class="heading"
-               style="font-weight: 500; font-size: 22px; line-height: 28px; margin-bottom: 24px; color: #1c1c1c;">
-               We've got mentors for you!</h1>
-            <p class="text" style="font-weight: 400; font-size: 16px; line-height: 22px; margin-bottom: 36px;">
-               Based on your profile, we have 3 mentors we think would be a great
-               fit for you.
-            </p>
-            <div class="mentors-list" style="display: flex; flex-direction: column; gap: 32px;">
-               <div class="mentor" style="display: flex; gap: 16px;">
-                  <img src="./icons/mentee-image.svg" alt="mentorImage"
-                     style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
-                  <div class="mentor-details">
-                     <h1
-                        style="color: #9A4B9C; text-decoration: underline; text-transform: uppercase; font-weight: 500; margin-bottom: 8px;">
-                        Emily Akinyi</h1>
-                     <p style="font-weight: 400; font-size: 16px; line-height: 22px;">Senior UX designer at
-                        SpaceYaTech</p>
+   <body>
+      <div class="new-mentors-container"
+         style="font-family: 'Poppins', sans-serif; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: space-between; max-width: 360px; background-color: #F5F5F5; border-radius: 16px; margin: auto; border-radius: 16px;">
+         <div class="new-mentors-main"
+            style="display: flex; flex-direction: column; align-items: center; padding: 20px 20px 0;">
+            <img src="./icons/Mentorlst main logo 2.svg" alt="logo" class="logo"
+               style="width: 185px; height: auto; margin-bottom: 36px;">
+            <div class="body" style="display: flex; flex-direction: column; gap: 0; margin-bottom: 16px;">
+               <h1 class="heading"
+                  style="font-weight: 500; font-size: 22px; line-height: 28px; margin-bottom: 24px; color: #1c1c1c;">
+                  We've got mentors for you!</h1>
+               <p class="text" style="font-weight: 400; font-size: 16px; line-height: 22px; margin-bottom: 36px;">
+                  Based on your profile, we have 3 mentors we think would be a great
+                  fit for you.
+               </p>
+               <div class="mentors-list" style="display: flex; flex-direction: column; gap: 32px;">
+                  <div class="mentor" style="display: flex; gap: 16px;">
+                     <img src="./icons/mentee-image.svg" alt="mentorImage"
+                        style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+                     <div class="mentor-details">
+                        <h1
+                           style="color: #9A4B9C; text-decoration: underline; text-transform: uppercase; font-size: 16px; font-weight: 500; margin-bottom: 8px;">
+                           Emily Akinyi</h1>
+                        <p style="font-weight: 400; font-size: 16px; line-height: 22px;">Senior UX designer at
+                           SpaceYaTech</p>
+                     </div>
                   </div>
-               </div>
-               <div class="mentor" style="display: flex; gap: 16px;">
-                  <img src="./icons/mentee-image.svg" alt="mentorImage"
-                     style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
-                  <div class="mentor-details">
-                     <h1
-                        style="color: #9A4B9C; text-decoration: underline; text-transform: uppercase; font-weight: 500; margin-bottom: 8px;">
-                        PAMELA OWINO</h1>
-                     <p style="font-weight: 400; font-size: 16px; line-height: 22px;">Senior UX designer at
-                        SpaceYaTech</p>
+                  <div class="mentor" style="display: flex; gap: 16px;">
+                     <img src="./icons/mentee-image.svg" alt="mentorImage"
+                        style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+                     <div class="mentor-details">
+                        <h1
+                           style="color: #9A4B9C; text-decoration: underline; text-transform: uppercase; font-weight: 500; margin-bottom: 8px; font-size: 16px;">
+                           PAMELA OWINO</h1>
+                        <p style="font-weight: 400; font-size: 16px; line-height: 22px;">Senior UX designer at
+                           SpaceYaTech</p>
+                     </div>
                   </div>
-               </div>
-               <div class="mentor" style="display: flex; gap: 16px;">
-                  <img src="./icons/mentee-image.svg" alt="mentorImage"
-                     style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
-                  <div class="mentor-details">
-                     <h1
-                        style="color: #9A4B9C; text-decoration: underline; text-transform: uppercase; font-weight: 500; margin-bottom: 8px;">
-                        Cecilia Ouko</h1>
-                     <p style="font-weight: 400; font-size: 16px; line-height: 22px;">Senior UX designer at
-                        SpaceYaTech</p>
+                  <div class="mentor" style="display: flex; gap: 16px;">
+                     <img src="./icons/mentee-image.svg" alt="mentorImage"
+                        style="width: 80px; height: 80px; border-radius: 50%; object-fit: cover;">
+                     <div class="mentor-details">
+                        <h1
+                           style="color: #9A4B9C; text-decoration: underline; font-size: 16px; text-transform: uppercase; font-weight: 500; margin-bottom: 8px;">
+                           Cecilia Ouko</h1>
+                        <p style="font-weight: 400; font-size: 16px; line-height: 22px;">Senior UX designer at
+                           SpaceYaTech</p>
+                     </div>
                   </div>
                </div>
             </div>
+            <button type="button" class="see-more"
+               style="background-color: #1E194F;cursor: pointer; text-transform: uppercase; min-width: 320px; color: #FCFCFC; font-size: 16px; border-radius: 8px; font-weight: 500; margin: 50px 0; padding: 18px 64px;">
+               See more mentors
+            </button>
          </div>
-         <button type="button" class="see-more"
-            style="background-color: #1E194F; text-transform: uppercase; max-width: 320px; color: #FCFCFC; font-size: 16px; border-radius: 8px; font-weight: 500; margin: 50px 0; padding: 18px 64px;">
-            See more mentors
-         </button>
-      </div>
-      <section class="footer" style="display: flex; 
-                 flex-direction: column;
-                 gap: 32px;
-                 background-color: #9A4B9C;
-                 padding-left: 20px;
-                 padding-right: 20px;
-                 padding-top: 32px;
-                 padding-bottom: 48px;
-                 color: white;
-                 border-bottom-right-radius: 16px;
-                 border-bottom-left-radius: 16px;">
-         <div class="footer-sub-container" style=" width: 100%;
-                     display: flex;
-                     flex-direction: column;
-                     justify-content: space-between;
-                     gap: 32px;">
-            <div class="section-1" style="display: flex;
-                         flex-direction: column;
-                         width: 60%;">
-               <div class="mentorlst" style="font-size: 16px;
-                             font-weight: 500;">
-                  <p>Mentorlst Africa LLC, Nairobi Kenya </p>
-               </div>
-               <div class="learn-more" style="display: inline-flex;
-                             flex-wrap: wrap;
-                             font-size: 14px;
-                             font-weight: 400;">
-                  <p>Learn more on </p>
-                  <p class="url" style=" font-weight: 500;
-                                 text-decoration: underline;">www.mentorlst.com</p>
-               </div>
-               <div class="unsubscribe">
-                  <p>
+         <section class="footer" style="display: flex; 
+                                   flex-direction: column;
+                                   gap: 32px;
+                                   background-color: #9A4B9C;
+                                   padding-top: 32px;
+                                   padding-bottom: 48px;
+                                   width: 100%;
+                                   
+                                   color: white;
+                                   border-bottom-right-radius: 16px;
+                                   border-bottom-left-radius: 16px;">
+            <div class="footer-sub-container" style=" width: 100%;
+                                       display: flex;
+                                       flex-direction: column;
+                                       justify-content: space-between;
+                                       padding: 32px 20px;
+                                       gap: 32px;">
+               <div class="section-1" style="display: flex;
+                                           flex-direction: column;
+                                           width: 60%;">
+                  <div class="mentorlst" style="font-size: 16px;
+                                               font-weight: 500;">
+                     <p>Mentorlst Africa LLC, Nairobi Kenya </p>
+                  </div>
+                  <div class="learn-more" style="display: flex;
+                                               flex-wrap: wrap;
+                                               font-size: 14px;
+                                               font-weight: 400;
+                                               align-items: center;
+                                               gap: 8px;
+                                               ">
+                     <p>Learn more on </p>
+                     <a href="#" class="url" style=" font-weight: 500;
+                                                   text-decoration: underline; color: #fff;">www.mentorlst.com</a>
+                  </div>
+                  <div class="unsubscribe">
+
                      Dont like these emails?
-                     <a to="#" class="unsubscribe-url" style="text-decoration: underline;">
+                     <a href="#" class="unsubscribe-url"
+                        style="text-decoration: underline; cursor: pointer; color: #fff;">
                         Unsubscribe
                      </a>
-                  </p>
+
+                  </div>
                </div>
-            </div>
-            <div class="section-2" style=" display: flex;
-                         flex-direction: column;
-                         gap: 16px;">
-               <div class="socials" style=" display: flex;
-                             align-items: center;
-                             gap: 32px;">
-                  <img src="./icons/twitter-white.svg" alt="" />
-                  <img src="./icons/ig-white.svg" alt="" />
-                  <img src="./icons/teeny-icon.svg" alt="" />
+               <div class="section-2" style=" display: flex;
+                                           flex-direction: column;
+                                           gap: 16px;">
+                  <div class="socials" style=" display: flex;
+                                               align-items: center;
+                                               gap: 32px;">
+                     <a href="#"><img src="./icons/twitter-white.svg" alt="" /></a>
+                     <a href="#"><img src="./icons/ig-white.svg" alt="" /></a>
+                     <a href="#"><img src="./icons/teeny-icon.svg" alt="" /></a>
+                  </div>
+                  <p class="terms" style="font-weight: 500;">
+                     <a href="#" style="text-decoration: underline; color: #fff;">Terms & conditions</a> /<a href="#"
+                        style="text-decoration: underline; color: #fff;">Contact us</a>
+                  </p>
                </div>
                <p class="terms" style="font-weight: 500;">
                   <span style="text-decoration: underline;">Terms & conditions</span> /<span
                      style="text-decoration: underline;">Contact us</span>
                </p>
             </div>
-         </div>
-         <p class="all-rights" style="margin-top: 56px;
-           align-self: center;">All Rights Reserved © Mentorlst 2023</p>
-      </section>
-   </div>
-</body>
+            <p class="all-rights" style="margin-top: 56px;
+                             align-self: center;">All Rights Reserved © Mentorlst 2023</p>
+         </section>
+      </div>
+   </body>
 
 </html>
